@@ -3,8 +3,8 @@ package com.jherkenhoff.qalculate.model
 data class UserPreferences(
     val decimalSeparator: DecimalSeparator = DecimalSeparator.DOT,
     val angleUnit: AngleUnit = AngleUnit.RADIANS,
-    val multiplicationSign: MultiplicationSign = MultiplicationSign.DOT,
-    val divisionSign: DivisionSign = DivisionSign.SLASH,
+    val multiplicationSign: MultiplicationSign = MultiplicationSign.X,
+    val divisionSign: DivisionSign = DivisionSign.DIVISION,
     val abbreviateNames: Boolean = true,
     val negativeExponents: Boolean = true,
     val spaciousOutput: Boolean = true,
