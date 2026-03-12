@@ -30,18 +30,18 @@ Android UI of the almighty <a href="https://qalculate.github.io">Qalculate!</a> 
   </a>
 </p>
 
-## Download
-[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/com.jherkenhoff.qalculate/)
+# Download
+
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" alt="Get it on F-Droid" height="80">](https://f-droid.org/packages/com.jherkenhoff.qalculate/)
 
 Or download the latest APK from the [Releases Section](https://github.com/jherkenhoff/qalculate-android/releases/latest).
 
-## Compiling
-You need to have the Android `NDK` installed. For building the native binaries, you also need `swig`.
+> [!WARNING]
+> This project supports an open and independent Android ecosystem and will not participate in Google's efforts to further lock-down Android. As a result, this app may not install on many devices starting September 2026. More information: https://keepandroidopen.org/
+
+# Compiling
 
 ```
-git clone https://github.com/jherkenhoff/libqalculate-android
 git clone https://github.com/jherkenhoff/qalculate-android
 cd qalculate-android
 ./gradlew assembleDebug
