@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Qalculate!"
+rootProject.name = "MicroCalculator"
 include ':app'

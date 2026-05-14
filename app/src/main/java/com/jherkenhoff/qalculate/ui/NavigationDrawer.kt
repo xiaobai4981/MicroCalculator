@@ -67,7 +67,7 @@ fun NavigationDrawer(
                 contentDescription = null,
                 modifier = Modifier
                     .size(80.dp)
-                    .shadow(6.dp, shape = CircleShape)
+                    .shadow(2.dp, shape = CircleShape)
             )
         }
         NavigationDrawerItem(
@@ -124,13 +124,13 @@ fun NavigationDrawer(
             icon = { Icon(Icons.Filled.Settings, contentDescription = null) },
             modifier = Modifier.padding(NavigationDrawerItemDefaults.ItemPadding)
         )
-        NavigationDrawerItem(
-            label = { Text(text = stringResource(R.string.navigation_about)) },
-            selected = false,
-            onClick = onAboutClick,
-            icon = { Icon(Icons.Filled.Info, contentDescription = null) },
-            modifier = Modifier.padding(NavigationDrawerItemDefaults.ItemPadding)
-        )
+//        NavigationDrawerItem(
+//            label = { Text(text = stringResource(R.string.navigation_about)) },
+//            selected = false,
+//            onClick = onAboutClick,
+//            icon = { Icon(Icons.Filled.Info, contentDescription = null) },
+//            modifier = Modifier.padding(NavigationDrawerItemDefaults.ItemPadding)
+//        )
     }
 
 
